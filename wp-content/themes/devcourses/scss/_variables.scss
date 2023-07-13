@@ -1,0 +1,33 @@
+/** Primary**/
+/** - Mobile: 375px**/
+/** - Desktop: 1440px**/
+
+/** Primary Colors**/
+
+$primary: #F5A524;
+$secondary: #205C8D;
+$light-gray: #ebebeb;
+
+/** Neutral Colors**/
+
+$dark-primary: #2b3d4f;
+$dark-gray: #3D3D3D;
+$white: #fff;
+$black: #000;
+
+/** Fonts **/
+
+$font-principal: "Raleway", sans-serif;
+$font-headings: "Staatliches", cursive;
+
+$font-weight-1: 900;
+$font-weight-2: 700;
+$font-weight-3: 400;
+
+/** Breakpoint Sass Variables**/
+$breakpoint-mobile: 37.5em;
+$breakpoint-tablet: 48em;
+$breakpoint-desktop: 90em;
+$breakpoint-desktop-medium: 105em;
+$breakpoint-desktop-large: 120em;
+$breakpoint-desktop-xlarge: 160em;

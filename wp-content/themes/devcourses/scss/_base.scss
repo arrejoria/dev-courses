@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Staatliches&display=swap");
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10 PX = 1rem**/
+
+  @media only screen and (min-width: $breakpoint-desktop) {
+    font-size: 70%;
+  }
+}
+
+body {
+  font-family:$font-principal;
+  font-size: 1.8rem;
+  line-height: 2;
+}
+
+/** Container */
+.container {
+  width: min(95%, 120rem);
+  margin: 0 auto;
+}
+
+/** Utilities **/
+.text-center {
+    text-align: center;
+}
+.primary-color {
+    color:$primary;
+}
+.white {
+    color:$white;
+}
+.section {
+    padding: 5rem 0;
+}
