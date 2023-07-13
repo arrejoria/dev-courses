@@ -1,0 +1,1 @@
+# Devcourse theme for WordPress
