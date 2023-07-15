@@ -1,14 +1,19 @@
-<?php get_header(); ?>
+<?php 
 
-<main class="container">
+if(!defined('ABSPATH')) die();
 
-    <?php while (have_posts()):
-        the_post();
 
-        the_title();
-        the_content();
-        Echo '99'+ 2;
-    endwhile; ?>
+get_header(); ?>
+
+<main class="container section">
+
+
+    <?php while (have_posts()):the_post(); ?>
+        <h1>
+            <?php the_title(); ?>
+        </h1>
+            <?php the_content(); ?>
+    <?php endwhile; ?>
 </main>
 
 
